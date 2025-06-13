@@ -159,7 +159,7 @@ def send_json(payload, gdn_logger, native_logger, proxy, metric , mode):
                 native_api ="https://nativeapi.poweradspy.com/api/adsData"
 
             headers = {'Content-Type': 'application/json'}
-            post_json = requests.request("POST", native_api, headers=headers,
+            post_json = requests.request("POST", "https://nativeapi.poweradspy.com/api/adsData", headers=headers,
                                          data=json.dumps(payload))
             print("[Native API MESSAGE] ", post_json.text, "Time:", datetime.utcnow())
             native_logger.error(post_json.text)
@@ -211,7 +211,7 @@ def send_json(payload, gdn_logger, native_logger, proxy, metric , mode):
                 gdn_api =" https://gdn-dev.poweradspy.com/api/adsData"
 
             if len(payload['post_owner'].strip()) > 0:
-                post_json = requests.request("POST", gdn_api, data=payload)
+                post_json = requests.request("POST", "https://gdnapi.poweradspy.com/api/adsData", data=payload)
                 print("[GDN API RESP.] ", post_json.text, "Post_owner:", payload['post_owner'], "ad_id:", payload['ad_id'])
                 gdn_logger.error(post_json.text)
                 log_print = json.loads(post_json.text)
