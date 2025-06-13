@@ -1,0 +1,1 @@
+cmd /k "cd /d C:\Users\Admin\Desktop\gdnnative_crwaler\gdnnative\Scripts & activate & cd /d C:\Users\Admin\Desktop\gdnnative_crwaler & python gdn_native_ios.py"

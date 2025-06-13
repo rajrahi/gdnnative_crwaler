@@ -1,0 +1,14 @@
+2025-06-13 12:00:04 | [INIT DC ERROR] for country il : ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-06-12 23:49:41 | [INIT DC ERROR] for country il : Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-06-12 23:53:49 | Offset:100000 https://www.volksstimme.de/blaulicht/stassfurt
+2025-06-12 23:53:54 | GDN Ads = 0 Native Ads = 3 Time_taken = 14
+2025-06-12 23:54:01 | Offset:100000 https://www.chip.de/artikel/Fernsehen-ueber-Internet-So-streamen-Sie-alle-TV-Sender-gratis-im-Web_140086081.html
+2025-06-12 23:54:03 | GDN Ads = 0 Native Ads = 0 Time_taken = 9
+2025-06-12 23:54:09 | Offset:100000 https://www.n-tv.de/shopping-und-service/Sitzabstand-beim-TV-Darum-lieber-nah-am-Fernseher-article24959928.html
+2025-06-12 23:54:15 | GDN Ads = 0 Native Ads = 2 Time_taken = 12
+2025-06-12 23:54:19 | Offset:100000 https://www.firstpost.com/web-show/first-sports/nepals-record-breaking-duo-do-the-unthinkable-at-mount-everest-vd260625/
+2025-06-12 23:54:19 | GDN Ads = 0 Native Ads = 0 Time_taken = 4
+2025-06-12 23:54:21 | Offset:100000 https://www.chip.de/nachrichten/foto,48194
+2025-06-12 23:54:22 | GDN Ads = 0 Native Ads = 0 Time_taken = 3
+2025-06-12 23:54:27 | Offset:100000 https://www.heute.at/s/in-dieser-gegend-in-wien-duerfen-hunde-nicht-pinkeln-120037744

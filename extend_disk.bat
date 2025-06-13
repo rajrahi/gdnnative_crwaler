@@ -1,0 +1,1 @@
+diskpart.exe /s a.txt

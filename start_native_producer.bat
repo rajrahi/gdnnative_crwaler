@@ -1,0 +1,1 @@
+cmd /k "cd /d C:\Users\Administrator\Desktop\GDN_Native_mobile\gdnnative\Scripts & activate & cd /d C:\Users\Administrator\Desktop\GDN_Native_mobile & python native_producer.py"
